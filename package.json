@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll",
-    "build:test": "eas build --platform all --profile preview --non-interactive"
+    "build:test": "npx eas build --platform all --profile preview --non-interactive"
   },
   "jest": {
     "preset": "jest-expo"
